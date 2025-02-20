@@ -1,3 +1,8 @@
+#explore *
+{
+    color: white;
+}
+
 #explore
 {
     background-image: url('../../public/img/bg.jpg');
@@ -5,4 +10,121 @@
     background-position: center;
     background-attachment: fixed;
     height: 100vh;
+    position: relative;
+    z-index: 1;
+}
+
+#dark-effect
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: black;
+    opacity: .4;
+    z-index: -2;
+    width: 100%;
+    height: 100%;
+}
+
+#explore-info
+{
+    position: absolute;
+    top: 35%;
+    left: 10%;
+    transition: top .3s ease-out;
+}
+
+#explore-info h3
+{
+    font-size: 2.3rem;
+    margin-bottom: 1.5rem;
+}
+
+#explore-info h1
+{
+    margin-bottom: 1.5rem;
+    transition: margin-bottom .3s ease-out;
+}
+
+#explore-info h1 span
+{
+    font-family: "Playwrite CU", cursive;
+    font-size: 3.3rem;
+    display: block;
+    
+}
+
+#explore-btn-list
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.explore-btn
+{
+    padding: 1rem 1rem;
+    font-size: 1.2rem;
+    height: 4rem;
+    margin: 0;
+}
+
+.e-btn-l
+{
+    background-color: orangered;
+    margin-right: 1rem;
+    border: 1px solid orangered;
+    transition: background-color .5s ease-out;
+}
+
+.e-btn-l:hover
+{
+    background-color: transparent;
+    border: 1px solid orangered;
+}
+
+.e-btn-r
+{
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+    border: 2px solid orangered;
+    transition: background-color .5s ease-out, color .5s ease-out;
+}
+
+.e-btn-r:hover
+{
+    background-color: orangered;
+}
+
+.e-btn-r i
+{
+    margin-right: .5rem;
+    font-size: 2.2rem;
+    color: orangered !important;
+    transition: color .5s ease-out;
+}
+
+.e-btn-r:hover i
+{
+    color: white !important;
+}
+
+
+@media (max-width: 768px) {
+
+    #explore-info{
+        top: 25%;
+        left: 10%;
+    }
+
+    #explore-info h3
+    {
+       margin-bottom: 0;
+    }
+
+    #explore-info h1
+    {
+        margin-bottom: 0;
+    }
 }
