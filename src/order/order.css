@@ -1,0 +1,79 @@
+#order
+{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(26, 17, 16);
+}
+
+#service
+{
+    width: 100%;
+}
+
+#order h3
+{
+    font-family: "Playwrite CU", cursive;
+    color: white;
+    font-size: 1.6rem;
+    margin-bottom: 1.2rem;
+}
+
+#order #headers
+{
+    text-align: center;
+    padding: 6rem 0 5rem 0;
+}
+
+.order-h1-part
+{
+    display: block;
+    color: white;
+    font-size: 3rem;
+}
+
+#order-h1-except
+{
+    color: orangered !important;
+}
+
+#order-card-list
+{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+    padding: 0 1rem;
+    margin-bottom: 3rem;
+}
+
+.order-card-list-el
+{
+    width: 30rem;
+    margin: 0 .5rem;
+}
+
+#order-box
+{
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    height: 33vh;
+    box-shadow: rgb(0, 0, 0) 0px 5px 15px;
+}
+
+#order-box img
+{
+    width: 30%;
+    height: auto;
+    object-fit: cover;
+    margin: 1.7rem 0;
+}
+
+#order-box h2
+{
+    margin-bottom: 1.4rem;
+}
