@@ -1,6 +1,7 @@
 import React from "react";
 import "./order.css";
 import OrderBox from "./OrderBox";
+import AboutUs from "./aboutUs/AboutUs";
 
 const Order = () => {
   const title1 = "Easy To Order";
@@ -18,11 +19,11 @@ const Order = () => {
   return (
     <div id="order">
       <div id="service">
-        <div id="headers">
-          <h3>Our Services</h3>
+        <div className="headers">
+          <h3 className="cursive-header">Our Services</h3>
           <h1>
             <span className="order-h1-part">
-              Best <span id="order-h1-except">Quality Food</span>
+              Best <span className="h1-except">Quality Food</span>
             </span>
             <span className="order-h1-part">Order Now</span>
           </h1>
@@ -39,7 +40,7 @@ const Order = () => {
           </li>
         </ul>
       </div>
-      div#about-us
+      <AboutUs />
     </div>
   );
 };

@@ -1,0 +1,43 @@
+#about-us
+{
+    background-color: rgb(26, 17, 16);
+    width: 100%;
+}
+
+#about-us-up
+{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#about-us-up > *
+{
+    width: 50%;
+}
+
+#about-us-up > p
+{
+    padding: 4rem;
+}
+
+#about-us-up > .headers
+{
+    transform: translateX(10%);
+}
+
+#about-us-card-list
+{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#about-us-card
+{
+    width: 26rem;
+    margin: 1rem;
+}

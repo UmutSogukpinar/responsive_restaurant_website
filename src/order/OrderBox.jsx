@@ -4,8 +4,8 @@ const OrderBox = ({ img, title, par }) => {
   return (
     <div id="order-box">
       <img src={img} alt="" />
-      <h2 style={{ color: "white" }}>{title}</h2>
-      <p style={{ color: "rgb(136, 136, 136)" }}>{par}</p>
+      <h2>{title}</h2>
+      <p>{par}</p>
     </div>
   );
 };
