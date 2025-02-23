@@ -5,6 +5,7 @@
     flex-direction: column;
     align-items: center;
     background-color: rgb(26, 17, 16);
+    padding-bottom: 5rem;
 }
 
 #service
@@ -23,7 +24,7 @@
 #order .headers
 {
     text-align: center;
-    padding: 6rem 0 5rem 0;
+    padding: 6rem 0 4rem 0;
 }
 
 #order p

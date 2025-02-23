@@ -1,43 +1,64 @@
-#about-us
-{
-    background-color: rgb(26, 17, 16);
-    width: 100%;
+#about-us {
+  background-color: rgb(26, 17, 16);
+  width: 100%;
 }
 
-#about-us-up
-{
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
+#about-us-up {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
 
-#about-us-up > *
-{
-    width: 50%;
+#about-us-up > * {
+  width: 50%;
 }
 
-#about-us-up > p
-{
-    padding: 4rem;
+#about-us-up > p {
+  padding: 4rem;
 }
 
-#about-us-up > .headers
-{
-    transform: translateX(10%);
+#about-us-up > .headers {
+  transform: translateX(10%);
 }
 
-#about-us-card-list
-{
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    flex-wrap: wrap;
+#about-us-card-list {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
-#about-us-card
+#about-us-card {
+  background-color: #ffeedc;
+  border: 5px solid chocolate;
+  width: 24rem;
+  margin: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#about-us-card > img {
+  width: 100%;
+  height: 27vh;
+  object-fit: cover;
+}
+
+#about-us-card > p
 {
-    width: 26rem;
-    margin: 1rem;
+    padding: 1rem;
+}
+
+#about-us-card > button {
+  background-color: orangered;
+  border: 2px solid orangered;
+  color: white;
+  font-size: 1.2rem;
+  padding: .5rem 1rem;
+  margin-bottom: 1rem;
+  margin-left: 1rem;
+  cursor: pointer;
+  align-self: flex-start;
 }
