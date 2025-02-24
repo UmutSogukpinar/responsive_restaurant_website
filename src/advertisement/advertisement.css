@@ -1,4 +1,85 @@
-#advertisement
-{
-    background-color: #312c2a;
+#advertisement {
+  display: flex;
+  flex-direction: row;
+  background-color: #312c2a;
+  padding: 4rem 0;
+}
+
+#advertisement > * {
+  width: 50%;
+}
+
+#ad-left {
+  padding-left: 6rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-right: 1rem;
+}
+
+#ad-left > h3 {
+  color: orangered;
+  font-size: 2.5rem;
+  padding: 0.5rem 0;
+}
+
+#ad-left > h1 {
+  color: white;
+  font-size: 3.5rem;
+  font-family: "Playwrite CU", cursive;
+  padding: 0.5rem 0;
+  transition: font-size 0.5s ease-out;
+}
+
+#ad-left > p {
+  color: #888;
+  padding: 0.5rem 0;
+}
+
+#ad-left > button {
+  padding: 0.8rem 1rem;
+  background-color: orangered;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.5s ease-out;
+  margin: 0.6rem 0;
+  width: 8rem;
+  font-size: 1rem;
+}
+
+#ad-right {
+  padding-right: 6rem;
+  padding-left: 1rem;
+}
+
+#ad-right > img {
+  width: 100%;
+}
+
+@media (min-width: 1080px) and (max-width: 1440px) {
+  #ad-left > h1 {
+    font-size: 4vw;
+  }
+}
+
+@media (max-width: 960px) {
+  #advertisement {
+    padding: 1rem 0;
+    flex-direction: column;
+  }
+
+  #ad-left {
+    width: 100%;
+    padding: 1rem 2.5rem;
+  }
+
+  #ad-right {
+    width: 100%;
+    padding: 1rem 2.5rem;
+  }
+
+  #ad-left > h1 {
+    font-size: 2.5rem;
+  }
 }
