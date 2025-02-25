@@ -61,4 +61,10 @@
   margin-left: 1rem;
   cursor: pointer;
   align-self: flex-start;
+  transition: background-color .3s ease-in;
+}
+
+#about-us-card > button:hover {
+  background-color: white;
+  color: black;
 }
