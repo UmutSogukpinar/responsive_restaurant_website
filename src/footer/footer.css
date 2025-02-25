@@ -22,3 +22,48 @@
     margin-bottom: 1rem;
     font-size: 1.8rem;
 }
+
+#footer li
+{
+    padding: .4rem 0;
+}
+
+#footer a
+{
+    color: #999;
+    transition: color .5s ease;
+}
+
+#footer a:hover
+{
+    color: orangered;
+}
+
+#footer p
+{
+    color: #999;
+    line-height: 1.5rem;
+}
+
+#fo-icon-list
+{
+    display: flex ;
+    flex-direction: row;
+}
+
+
+#fo-icon-list li
+{
+    padding-top: 1.2rem;
+}
+
+#fo-icon-list li:nth-child(2)
+{
+    padding: 1.2rem 1.5rem;
+}
+
+#fo-icon-list a
+{
+    color: white;
+    font-size: 1.5rem;
+}
