@@ -18,10 +18,6 @@
   padding: 4rem;
 }
 
-#about-us-up > .headers {
-  transform: translateX(10%);
-}
-
 #about-us-card-list {
   width: 100%;
   display: flex;
@@ -67,4 +63,27 @@
 #about-us-card > button:hover {
   background-color: white;
   color: black;
+}
+
+@media (max-width: 768px)
+{
+  #about-us-up
+  {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  #about-us-up .headers
+  {
+    padding: 1rem 0;
+    margin: 0 auto;
+  }
+
+  #about-us-up  p
+  {
+    padding: 1rem .5rem;
+    margin: 0 auto;
+    width: 25rem;
+    text-align: center;
+  }
 }
