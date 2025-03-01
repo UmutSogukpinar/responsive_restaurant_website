@@ -1,5 +1,4 @@
-* 
-{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -7,12 +6,44 @@
   text-decoration: none;
 }
 
-#app
-{
+#app {
   width: 100%;
 }
 
-button
-{
+button {
   cursor: pointer;
+}
+
+#up-card {
+  position: fixed;
+  width: 4rem;
+  height: 7vh;
+  border-radius: 0.4rem;
+  background-color: orangered;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  top: 90%;
+  left: 92%;
+  z-index: 5;
+}
+
+#up-card i {
+  font-size: 3rem;
+  color: white;
+}
+
+@media (max-width: 900px) {
+  #up-card
+  {
+    left: 90%;
+  }
+}
+
+@media (max-width: 768px) {
+  #up-card {
+
+    left: 85%;
+  }
 }
